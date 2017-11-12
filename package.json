@@ -4,6 +4,9 @@
   "description": "test project",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "lint": "eslint ./src",
+    "start": "webpack ./src/index.js ./public/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/Nikolaev01/react-test/issues"
   },
-  "homepage": "https://github.com/Nikolaev01/react-test#readme"
+  "homepage": "https://github.com/Nikolaev01/react-test#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "webpack": "^3.8.1"
+  }
 }

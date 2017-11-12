@@ -1,3 +1,4 @@
 
 .idea/
-s
+node_modules
+public/bundle.js
